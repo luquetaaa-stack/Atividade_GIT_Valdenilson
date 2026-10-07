@@ -8,5 +8,61 @@
 </head>
 <body>
     <header><h1>Minha Trilha de Aprendizagem</h1></header>
+    <main>
+        <div>
+            <img src="git-github.png" alt="git-github">
+        </div>
+
+        <div class="ListaComandos">
+            <h2>Comandos básicos do Git e GitHub</h2>
+
+            <h3>Configuração</h3>
+                <ul>
+                  <li><code>git config --global user.name "Seu Nome"</code> — Define seu nome.</li>
+                  <li><code>git config --global user.email "seu@email.com"</code> — Define seu e-mail.</li>
+                  <li><code>git config --list</code> — Exibe as configurações do Git.</li>
+                </ul> <br>
+
+            <h3>Iniciando um projeto</h3>
+                <ul>
+                  <li><code>git init</code> — Inicializa um repositório Git.</li>
+                  <li><code>git clone URL</code> — Clona um repositório existente.</li>
+                </ul> <br>
+
+            <h3>Alterações e commits</h3>
+                <ul>
+                  <li><code>git status</code> — Mostra o estado dos arquivos.</li>
+                  <li><code>git add arquivo</code> — Adiciona um arquivo à área de preparação.</li>
+                  <li><code>git add .</code> — Adiciona todas as alterações.</li>
+                  <li><code>git commit -m "mensagem"</code> — Cria um commit.</li>
+                  <li><code>git log</code> — Exibe o histórico de commits.</li>
+                  <li><code>git diff</code> — Mostra as diferenças entre as alterações.</li>
+                </ul> <br>
+
+            <h3>Branches</h3>
+                <ul>
+                  <li><code>git branch</code> — Lista as branches.</li>
+                  <li><code>git branch nome-da-branch</code> — Cria uma nova branch.</li>
+                  <li><code>git switch nome-da-branch</code> — Muda para outra branch.</li>
+                  <li><code>git switch -c nome-da-branch</code> — Cria e muda para uma nova branch.</li>
+                  <li><code>git merge nome-da-branch</code> — Mescla uma branch com a atual.</li>
+                  <li><code>git branch -d nome-da-branch</code> — Exclui uma branch local.</li>
+                </ul> <br>
+
+            <h3>GitHub e repositórios remotos</h3>
+                <ul>
+                  <li><code>git remote -v</code> — Mostra os repositórios remotos configurados.</li>
+                  <li><code>git remote add origin URL</code> — Adiciona um repositório remoto.</li>
+                  <li><code>git push origin main</code> — Envia a branch <code>main</code> para o GitHub.</li>
+                  <li><code>git push -u origin main</code> — Envia a branch e define o repositório remoto padrão.</li>
+                  <li><code>git pull</code> — Baixa e integra alterações do repositório remoto.</li>
+                  <li><code>git fetch</code> — Baixa informações do remoto sem integrar as alterações.</li>
+                </ul>
+        </div>
+    </main>
+
+    <footer>
+         <p>&copy; 2026 Antônio Lucas Ltda. Todos os direitos reservados. Desenvolvido por Antônio Lucas.</p>
+    </footer>
 </body>
 </html>
